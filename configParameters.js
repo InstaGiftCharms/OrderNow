@@ -66,9 +66,9 @@ class ConfigParameters {
                 { type: 'img', id: 'img_charmAddon02', value: '"Big Charms (+ 10.00 PHP)":"https://lh3.googleusercontent.com/pw/AP1GczOpWbdEgyT8O7khI5yCn_BPEm08lGtf638NV0uGfQjWCi7hcPzWoO0CAC40NlxQnRkGCVvW63EjwEDZ5EVDm6CbkZF3uJz9L0-6xioj7u0zQGmbDKqrf6c3_Z9MbVwpICiM1Ak4sWmJ9jXQ2YPLPNOLog=w950-h950-s-no-gm?authuser=0"', responsePrefix:'02|Include ' },
                 { type: 'img', id: 'img_charmAddon03', value: '"Small Charms (+ 5.00 PHP)":"https://lh3.googleusercontent.com/pw/AP1GczMzSAY7AZ1WXOvNmIlEqgLMWwkHJFbAECMJDM69oWFz5CVJc26oNA9E8NC0KaYSheRyUTSyKwiOdkHHo2_Z7czmfA6OLY9yqjkePqrdXpEBxlY-qJqtSTpwCxmpaUJGJ_OJt5irorVzwFMYeCgEVKIOnQ=w950-h950-s-no-gm?authuser=0"', responsePrefix:'03|Include ' },
                 { type: 'img', id: 'img_charmAddon04', value: '"Phone Hook (+ 25.00 PHP)":"https://lh3.googleusercontent.com/pw/AP1GczPDvOgy8AcJZL3F_lwsK6SZi8yOoQkbmp15v6An7gm4_4mex4eVgYX6FuZkmlXQO1fd8WwxKVe67RSd2mQsOfnXmDv1KuNXW_LHNIsrjKAdXdYen9U-9ezpC9XpRjqcXz2fVCfZf9O4AB_WPaA7asSQZQ=w950-h950-s-no-gm?authuser=0"', responsePrefix:'04|Include ' },
-                { type: 'label', id: 'lbl_04', value: 'Additional Order Request:'},
-				{ type: 'textbox', id: 'txt_additionalReq', value: 'Type here', responsePrefix:'05|Additional Request: ' },
-				{ type: 'quantity', id: 'num_itemQuantity', value: 'Item Quantity', responsePrefix:'06|Quantity: ' }
+                { type: 'label', id: 'lbl_04', value: 'Additional Order Request (color or charm type preference):'},
+		{ type: 'textbox', id: 'txt_additionalReq', value: 'Type here', responsePrefix:'05|Additional Request: ' },
+		{ type: 'quantity', id: 'num_itemQuantity', value: 'Item Quantity', responsePrefix:'06|Quantity: ' }
             ]
         },
     ];
