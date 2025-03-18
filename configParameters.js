@@ -22,6 +22,7 @@ class ConfigParameters {
         // Each object has:
         //   - optionName: The name of the shipping option (string).
         //   - optionCost: The cost of the shipping option (number).
+	{ optionName: "Pickup in-person", optionCost: 0 },
         { optionName: "Pickup via On-Demand Delivery (Lalamove, Grab, etc.)", optionCost: 0 },
         { optionName: "Standard Shipping (within Metro Manila only)", optionCost: 250 }
     ];
