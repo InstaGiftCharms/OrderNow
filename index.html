@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaGift Charms - Order Now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNCGWT6EZ5yV-SeNfZ0-YbV96-4AqQAug30GouSFn9l9R17E0xbmlmof9Dg64aQrv2BC0hYenO95GrCmFEBDaNaoptc0gnz6NSoIOtFrhS6kOtsk24mLH3k-EMAZiIiaSpC8mV40V-pyWJKnKsyWLS4hQ=w951-h951-s-no-gm?authuser=0" alt="InstaGift Charms Logo" class="logo">
+        <h1 class="store-title">InstaGift Charms</h1>  </header>
+    <div class="container">
+        <div class="form-area">
+            <div class="form-title-container">
+                <h2 class="form-title">Order Form</h2>
+                <p id="orderReferenceNumberDisplay"></p>
+            </div>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSfdoSeJim3AAYhcefVW_PAXujSkQkT9ygyge6Nsr71MGbjQOg/formResponse" method="post">
+                <div style="display: none;">
+                    <input type="text" id="orderReferenceNumber" name="entry.1812157201" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="entry.1576125739" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="entry.2134199812" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="entry.227194447" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactNumber">Contact Number (Optional):</label>
+                    <input type="tel" id="contactNumber" name="entry.1002294037">
+                </div>
+
+                <div class="form-group"> <hr> </div>
+
+                <div class="product-info-area">  <div class="form-group">
+                        <label for="productSelection">Product Selection:</label>
+                        <select id="productSelection" name="productSelection" required>
+                            <option value="" disabled selected class="placeholder-option">Select a Product</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" id="dynamic-form-area">
+                    </div>
+
+                    <div class="form-group">
+                        <button type="button" id="add-to-cart-button" class="add-cart-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div id="shopping-cart-area">
+                    <h3>Shopping Cart</h3>
+                    <div id="cart-items-container">
+                        <p class="empty-cart-message">Your cart is empty. Please add items using the product selection section of the form.</p>
+                    </div>
+                </div>
+
+                <div class="form-group"> <hr> </div>
+
+
+                <div class="shipping-info-area">
+                    <div class="form-group">  <p id="shipping-options-explanation"></p> </div>  <div class="form-group">
+                        <label for="shippingOption">Shipping Option:</label>
+                        <select id="shippingOption" name="entry.566989990" required>
+                            <option value="" disabled selected class="placeholder-option">Select Shipping Option</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <hr>
+                    </div>
+                    <div class="form-group">  <label for="shippingAddress">Shipping Address:</label>  <textarea id="shippingAddress" name="entry.517606747" rows="4"></textarea> </div>
+                </div>
+
+
+                <div class="form-group order-total-area">
+                    <hr>
+                    <label>Total Order Price:</label>
+                    <span id="order-total-price-value" class="price-value">PHP 0.00</span>
+                </div>
+
+                <div id="payment-instruction-area">
+                    <div class="form-group">  <p id="payment-instruction-text"></p> </div>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="orderDescription" name="entry.2067952634" rows="5" style="display: none;"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit Order</button>
+                </div>
+            </form>
+        </div>
+        <div class="slideshow-area">
+            <div class="slideshow-container">
+                <img id="slideshow-image" src="" alt="Slideshow Image">
+                <div class="slideshow-controls">
+                    <button id="prev-button" aria-label="Previous Slide">❮</button>
+                    <button id="next-button" aria-label="Next Slide">❯</button>
+                </div>
+                <div class="slideshow-indicators"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="configParameters.js"></script>
+    <script src="dynamicForm.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
