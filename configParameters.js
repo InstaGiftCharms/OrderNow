@@ -5,7 +5,7 @@ class ConfigParameters {
         // Example URLs below (replace with your actual image URLs):
         "https://lh3.googleusercontent.com/pw/AP1GczMhUvNEaDbxrcPonTA-Bi2g8Kv9h469BM7QavVE5zEFwbhI2RhFa4Ut8rp0-MogwaYzVThe_5gUJbXcHT96mqQw0TdvNXioPYbZavAJeC5zmubHSShLT3YT48CNaH4-KeA1qyn3BsWRhIKYVVJphX0Xew=w950-h950-s-no-gm?authuser=0",
         "https://lh3.googleusercontent.com/pw/AP1GczOqHOeBqKu_iNl8mKWvRFRsEAXIfQSw1SzKzlbKU0HacDUc8nepvRHzHVXhijx4QVjYOUaimJIccbuZsdakl7N_gqmZ4wZVdLUt3x3qG63LsZwjqplrryTn81cZzwOmoiA0MCmcKAelUI8dt6swXdfFXA=w950-h950-s-no-gm?authuser=0",
-        "https://lh3.googleusercontent.com/pw/AP1GczNj3XyKQpaImyuWobsl6mY5OmwgVXWQL5R-OAmo0o57BmCDeGk_z6DZGoNeL_XkTGaayilZ_VmIScxQk3GN-hu38uDRwSW1ioCiqq4rDM2o4SELgE6_AUxAMsz7fi2cFl69FRFJF-Lj4GfveI9DmZTZ3w=w1042-h1039-s-no-gm?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczPihLkBpsV89G309FZUMqY_RNg8Mo0WRvdt2ha9vYJ0FPWFN1bA5B-fc0uX4EJqTb5_jQglKugQ5ffGjr_8P7aVmydsX0GKytW_1amz6E6XaCy72K2t-7wTXeVcMRZxb2wdr0rTtzG9pg4tp7cs2U3xrg=w1039-h1039-s-no-gm?authuser=0",
 	"https://lh3.googleusercontent.com/pw/AP1GczM1V24F4vzVdQuqDhjqT39kb7Q9k1ADHELHA9YG7euWfzuPuLlrtNzBttFbz_Aa_JEeNTHOmelg9jyL01aSflztVKBWXjVlNmQ2hobWXm_m5mhr-Zzl_kZP1zacBVhvWC3NzbM7Bd47YwI9rCziNjID5Q=w950-h950-s-no-gm?authuser=0",
         "https://lh3.googleusercontent.com/pw/AP1GczNoKPXDHc6Qk563FtyV29dE3O3DLi_H18_yB1MF58ijTWsFhLYVh9zvUEwWEpFSSrRXygkjbDI6sm41L-0Im3epBjeVxVgI1CGBMY0D1OD8_RowWan-IKc-mCHSaSQgLSxeBsDp3ceLi_I9xykHRDWcVQ=w950-h950-s-no-gm?authuser=0"
     ];
